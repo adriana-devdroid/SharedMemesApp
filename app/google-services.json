@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "484920825813",
+    "firebase_url": "https://sharememesapp.firebaseio.com",
+    "project_id": "sharememesapp",
+    "storage_bucket": "sharememesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484920825813:android:d544df731dee0be8",
+        "android_client_info": {
+          "package_name": "com.sharedmemesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484920825813-uq2vc1m96l66nv09qspaqt2kir1ph2em.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharedmemesapp",
+            "certificate_hash": "81d477292f9b6f8e171e1438462e704affa87f53"
+          }
+        },
+        {
+          "client_id": "484920825813-j40bg8qrpj8m03tdaqc4k3ou3gi6h2oo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUOGO04X_z7FviBLCi1GbcDjDUZ5gsulI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484920825813-j40bg8qrpj8m03tdaqc4k3ou3gi6h2oo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".AuthActivity">
+
+
+        <EditText
+            android:id="@+id/editTextRegUsuario"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Usuario"
+            android:background="@drawable/bg_edittext"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextRegContrasena"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edittext"
+            android:hint="Contraseña"
+            android:layout_marginBottom="15sp"
+            android:layout_marginTop="15sp"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/mBotonRegistrarse"
+            android:layout_width="200dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:shadowRadius="25"
+            android:background="@drawable/borde_redondo"
+            android:text="Registrarse y entrar"
+            android:layout_marginBottom="15sp"
+            android:textColor="#fff" />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#992266"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
